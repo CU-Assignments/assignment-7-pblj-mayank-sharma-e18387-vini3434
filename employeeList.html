@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Directory</title>
+</head>
+<body>
+    <h2>Employee Directory</h2>
+    <form action="EmployeeServlet" method="POST">
+        <label for="empId">Enter Employee ID:</label>
+        <input type="text" id="empId" name="empId"><br><br>
+        <button type="submit">Search</button>
+    </form>
+    <h3>Employee List:</h3>
+    <!-- Employee list will be displayed here -->
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Email</th>
+        </tr>
+        <!-- Employee rows will be populated here -->
+    </table>
+</body>
+</html>
